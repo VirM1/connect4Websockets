@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client">
+  <grid id="27dc6" binding="main" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="900"/>
+    </constraints>
+    <properties>
+      <maximumSize width="800" height="900"/>
+      <minimumSize width="800" height="900"/>
+      <preferredSize width="800" height="900"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="82baa" binding="ContentPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="2d72" binding="GameFrame" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="gameframe"/>
+            </constraints>
+            <properties>
+              <name value=""/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="49ee1" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties>
+                  <maximumSize width="800" height="800"/>
+                  <minimumSize width="800" height="800"/>
+                  <opaque value="true"/>
+                  <preferredSize width="800" height="800"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="39044" binding="SecondaryPanel" custom-create="true" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="800"/>
+                        <preferred-size width="-1" height="800"/>
+                        <maximum-size width="-1" height="800"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="abc6b" class="javax.swing.JButton" binding="button0">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <actionCommand value=""/>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="b8e2e" class="javax.swing.JButton" binding="button2">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="5790d" class="javax.swing.JButton" binding="button3">
+                        <constraints>
+                          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="95fd" class="javax.swing.JButton" binding="button4">
+                        <constraints>
+                          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="1b28e" class="javax.swing.JButton" binding="button5">
+                        <constraints>
+                          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="6fd4c" class="javax.swing.JButton" binding="button6">
+                        <constraints>
+                          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                      <component id="c1f6d" class="javax.swing.JButton" binding="button1">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="1.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1446160"/>
+                          <borderPainted value="true"/>
+                          <contentAreaFilled value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="false"/>
+                          <foreground color="-1315861"/>
+                          <label value=""/>
+                          <text value=""/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="true"/>
+                        </clientProperties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="2d71d" class="javax.swing.JLabel" binding="labelGAMEFRAME">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="labelpogg"/>
+                    </properties>
+                  </component>
+                  <component id="39a76" class="javax.swing.JButton" binding="relancerButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="relancer"/>
+                    </properties>
+                  </component>
+                  <vspacer id="4e9c5">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="e48a4">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="a5a63" class="javax.swing.JButton" binding="quitter">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="100" height="-1"/>
+                        <preferred-size width="100" height="-1"/>
+                        <maximum-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="quitter"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="6a44b" binding="Lobby" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="lobby"/>
+            </constraints>
+            <properties>
+              <minimumSize width="800" height="900"/>
+              <preferredSize width="800" height="900"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bf966" class="javax.swing.JLabel" binding="connected">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <grid id="9ad0" binding="ServerList" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <maximumSize width="600" height="900"/>
+                  <minimumSize width="600" height="900"/>
+                  <preferredSize width="600" height="900"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="d6c07" binding="Options" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <maximumSize width="200" height="900"/>
+                  <minimumSize width="200" height="900"/>
+                  <preferredSize width="200" height="900"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2c427" class="javax.swing.JButton" binding="creerpartie">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <opaque value="true"/>
+                      <text value="Créer Partie"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="c169d" binding="disconnected" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="disconnected"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3de2b" class="javax.swing.JLabel" binding="placeholder">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Tentative de connection"/>
+                </properties>
+              </component>
+              <component id="ceb4a" class="javax.swing.JButton" binding="seReconnecterButton" default-binding="true">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Se reconnecter"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7c70f" binding="WaitingFrame" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="attente"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ac70" class="javax.swing.JLabel" binding="gameIdWAIT">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
